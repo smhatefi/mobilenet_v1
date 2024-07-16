@@ -31,7 +31,7 @@ This repository contains the implementation of a MobileNet model from scratch to
 
 1. **Train the model and evaluate it:**
 
-   Run the main.py script to train and evaluate the model:
+   Run the `main.py` script to train and evaluate the model:
    ```
    python main.py
    ```
@@ -44,7 +44,7 @@ This repository contains the implementation of a MobileNet model from scratch to
 
 2. **Test the model with sample images:**
 
-   The main.py script also includes a test phase that:
+   The `main.py` script also includes a test phase that:
 
    - Loads the trained model.
    - Preprocesses a sample image.
@@ -52,7 +52,7 @@ This repository contains the implementation of a MobileNet model from scratch to
 
 ## Utility Functions
 
-- utils.py contains helper functions for preprocessing images:
+`utils.py` contains helper functions for preprocessing images:
 - preprocess(image, label): Preprocesses the dataset images (resize and normalize).
 - load_and_preprocess_image(image_path): Loads and preprocesses a single image for prediction.
 
