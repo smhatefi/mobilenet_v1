@@ -25,7 +25,7 @@ This repository contains the implementation of a MobileNet model from scratch to
 
 3. **Download sample images for testing:**
 
-   The main.py script downloads sample images for testing.
+   The `main.py` script downloads sample images for testing.
 
 ## How to Run
 
@@ -39,16 +39,29 @@ This repository contains the implementation of a MobileNet model from scratch to
    This will:
    
    - Train the MobileNet model on the Cats vs. Dogs dataset.
-   - Save the trained model to a file mobilenet_model.h5.
+   - Save the trained model to a file `mobilenet_model.h5`.
    - Evaluate the model on the test set and print the test accuracy.
-
-2. **Test the model with sample images:**
-
+  
    The `main.py` script also includes a test phase that:
 
    - Loads the trained model.
    - Preprocesses a sample image.
    - Makes a prediction and displays the image with the predicted class label.
+
+2. **Test the model with sample images:**
+
+   Run the `test.py` script to only test the model without training:
+   ```
+   python test.py
+   ```
+   This will:
+   - Loads the trained model.
+   - Preprocesses a sample image.
+   - Makes a prediction and displays the image with the predicted class label.
+
+   
+   *In this case the model uses the pre-trained weights `mobilenet_model.h5` which i have provided in the repository.*
+   
 
 ## Utility Functions
 
