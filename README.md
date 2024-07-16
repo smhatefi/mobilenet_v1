@@ -14,5 +14,30 @@ This repository contains the implementation of a MobileNet model from scratch to
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your_username/your_repository.git
-   cd your_repository
+   git clone https://github.com/smhatefi/mobilenet_v1.git
+   cd mobilenet_v1
+
+2. **Install the required packages:**
+   
+   Make sure you have Python and pip installed. Then, install the required Python packages:
+   ```bash
+   pip install tensorflow keras matplotlib tensorflow-datasets
+
+3. **Download sample images for testing:**
+
+   The main.py script downloads sample images for testing.
+
+## How to Run
+
+1. **Train the model and evaluate it:**
+
+   Run the main.py script to train and evaluate the model:
+
+   ```bash
+   python main.py
+
+This will:
+
+Train the MobileNet model on the Cats vs. Dogs dataset.
+Save the trained model to a file mobilenet_model.h5.
+Evaluate the model on the test set and print the test accuracy.
