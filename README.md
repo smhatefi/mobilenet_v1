@@ -32,12 +32,19 @@ This repository contains the implementation of a MobileNet model from scratch to
 1. **Train the model and evaluate it:**
 
    Run the main.py script to train and evaluate the model:
-
    ```bash
    python main.py
 
-This will:
+   This will:
+   
+   - Train the MobileNet model on the Cats vs. Dogs dataset.
+   - Save the trained model to a file mobilenet_model.h5.
+   - Evaluate the model on the test set and print the test accuracy.
 
-Train the MobileNet model on the Cats vs. Dogs dataset.
-Save the trained model to a file mobilenet_model.h5.
-Evaluate the model on the test set and print the test accuracy.
+2. **Test the model with sample images:**
+
+   The main.py script also includes a test phase that:
+
+   - Loads the trained model.
+   - Preprocesses a sample image.
+   - Makes a prediction and displays the image with the predicted class label.
