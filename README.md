@@ -50,13 +50,16 @@ This repository contains the implementation of a MobileNet model from scratch to
 
 2. **Test the model without training:**
 
-   Run the `test.py` script to only test the model without training:
+   Download your desired image and run the `test.py` script to only test the model without training:
    ```
+   # For Example
+   !wget -q -O cat.jpg https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg
+   
    python test.py
    ```
    This will:
    - Loads the trained model.
-   - Preprocesses a sample image.
+   - Preprocesses the sample image.
    - Makes a prediction and displays the image with the predicted class label.
 
    *In this case the model uses the pre-trained weights `mobilenet_model.h5` which i have provided in the repository.*   
