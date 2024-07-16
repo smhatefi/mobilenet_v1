@@ -1,6 +1,11 @@
 # MobileNet V1 Implementation from scratch
 
-This repository contains the implementation of a MobileNet model from scratch to classify images of cats and dogs using TensorFlow and Keras. The dataset used is the Cats vs. Dogs dataset from TensorFlow Datasets.
+This repository contains the implementation of a MobileNet model from scratch to classify images of cats and dogs using TensorFlow and Keras.
+
+## Dataset
+
+The dataset used is the Cats vs. Dogs dataset from TensorFlow Datasets.
+![Cats vs. Dogs dataset](https://storage.googleapis.com/tfds-data/visualization/fig/cats_vs_dogs-4.0.1.png)
 
 ## Repository Structure
 
