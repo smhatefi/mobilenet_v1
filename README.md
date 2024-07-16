@@ -34,8 +34,10 @@ This repository contains the implementation of a MobileNet model from scratch to
    Run the main.py script to train and evaluate the model:
    ```bash
    python main.py
+   ```bash
 
-This will:
+
+   This will:
    
    - Train the MobileNet model on the Cats vs. Dogs dataset.
    - Save the trained model to a file mobilenet_model.h5.
