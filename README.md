@@ -6,7 +6,7 @@ This repository contains the implementation of a MobileNet model from scratch to
 
 The dataset used is the Cats vs. Dogs dataset from TensorFlow Datasets.
 
-![Cats vs. Dogs dataset](https://storage.googleapis.com/tfds-data/visualization/fig/cats_vs_dogs-4.0.1.png)
+![Cats vs. Dogs dataset](cats_vs_dogs.png)
 
 ## Repository Structure
 
