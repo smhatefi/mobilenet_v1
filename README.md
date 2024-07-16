@@ -29,7 +29,7 @@ This repository contains the implementation of a MobileNet model from scratch to
 
 ## How to Run
 
-1. **Train the model and evaluate it:**
+1. **Train the model and test it with sample images:**
 
    Run the `main.py` script to train and evaluate the model:
    ```
@@ -48,7 +48,7 @@ This repository contains the implementation of a MobileNet model from scratch to
    - Preprocesses a sample image.
    - Makes a prediction and displays the image with the predicted class label.
 
-2. **Test the model with sample images:**
+2. **Test the model without training:**
 
    Run the `test.py` script to only test the model without training:
    ```
@@ -59,9 +59,7 @@ This repository contains the implementation of a MobileNet model from scratch to
    - Preprocesses a sample image.
    - Makes a prediction and displays the image with the predicted class label.
 
-   
-   *In this case the model uses the pre-trained weights `mobilenet_model.h5` which i have provided in the repository.*
-   
+   *In this case the model uses the pre-trained weights `mobilenet_model.h5` which i have provided in the repository.*   
 
 ## Utility Functions
 
