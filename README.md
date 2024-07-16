@@ -32,10 +32,9 @@ This repository contains the implementation of a MobileNet model from scratch to
 1. **Train the model and evaluate it:**
 
    Run the main.py script to train and evaluate the model:
-   ```bash
+   ```
    python main.py
-   ```bash
-
+   ```
 
    This will:
    
@@ -50,3 +49,23 @@ This repository contains the implementation of a MobileNet model from scratch to
    - Loads the trained model.
    - Preprocesses a sample image.
    - Makes a prediction and displays the image with the predicted class label.
+
+## Utility Functions
+
+- utils.py contains helper functions for preprocessing images:
+- preprocess(image, label): Preprocesses the dataset images (resize and normalize).
+- load_and_preprocess_image(image_path): Loads and preprocesses a single image for prediction.
+
+## Notes
+
+- The model architecture and training parameters can be adjusted in model.py and train.py respectively.
+- The dataset used is the Cats vs. Dogs dataset available in TensorFlow Datasets. Ensure you have a stable internet connection to download the dataset.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Acknowledgments
+
+- The MobileNet model architecture is inspired by the original [MobileNet paper](https://arxiv.org/abs/1704.04861).
+- To implement the architecture, [this post on Kaggle](https://www.kaggle.com/code/sonukiller99/mobilenet-from-scratch) has been used.
