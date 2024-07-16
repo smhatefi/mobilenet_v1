@@ -2,12 +2,6 @@
 
 This repository contains the implementation of a MobileNet model from scratch to classify images of cats and dogs using TensorFlow and Keras.
 
-## Dataset
-
-The dataset used is the Cats vs. Dogs dataset from TensorFlow Datasets.
-
-![Cats vs. Dogs dataset](cats_vs_dogs.png)
-
 ## Repository Structure
 
 - `model.py`: Defines the MobileNet model architecture.
@@ -61,6 +55,12 @@ The dataset used is the Cats vs. Dogs dataset from TensorFlow Datasets.
 - utils.py contains helper functions for preprocessing images:
 - preprocess(image, label): Preprocesses the dataset images (resize and normalize).
 - load_and_preprocess_image(image_path): Loads and preprocesses a single image for prediction.
+
+
+## Dataset
+
+The dataset used for training is the Cats vs. Dogs dataset from TensorFlow Datasets.
+![Cats vs. Dogs dataset](cats_vs_dogs.png)
 
 ## Notes
 
