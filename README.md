@@ -64,12 +64,12 @@ The dataset used for training is the Cats vs. Dogs dataset from TensorFlow Datas
 
 ## Notes
 
-- The model architecture and training parameters can be adjusted in model.py and train.py respectively.
+- The model architecture and training parameters can be adjusted in `model.py` and `train.py` respectively.
 - The dataset used is the Cats vs. Dogs dataset available in TensorFlow Datasets. Ensure you have a stable internet connection to download the dataset.
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ## Acknowledgments
 
