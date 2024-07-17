@@ -54,7 +54,8 @@ This repository contains the implementation of a MobileNet model from scratch to
    ```
    # For Example
    wget -q -O cat.jpg https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg
-   
+   ```
+   ```
    python test.py
    ```
    This will:
