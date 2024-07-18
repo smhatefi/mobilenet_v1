@@ -56,7 +56,7 @@ This repository contains the implementation of a MobileNet model from scratch to
    wget -q -O test.jpg https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg
    ```
 
-   Run the `test.py` script to only test the model without training:
+   Run the `test.py` script to test the model:
    ```
    python test.py
    ```
