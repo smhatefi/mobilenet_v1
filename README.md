@@ -50,7 +50,7 @@ This repository contains the implementation of a MobileNet model from scratch to
 
 2. **Test the model without training:**
 
-   Download your desired image and save it in the main directory of project with the name `test.jpg`.
+   Download your desired image and save it in the main directory of project with the name `test.jpg`
    ```
    # For Example
    wget -q -O test.jpg https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg
