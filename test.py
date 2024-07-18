@@ -7,7 +7,7 @@ from utils import load_and_preprocess_image
 model = load_model('mobilenet_model.h5')
 
 # Load and preprocess the image
-image_path = 'cat.jpg'
+image_path = 'test.jpg'
 image = load_and_preprocess_image(image_path)
 image_for_prediction = np.expand_dims(image, axis=0)  # Add batch dimension
 

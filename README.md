@@ -50,11 +50,13 @@ This repository contains the implementation of a MobileNet model from scratch to
 
 2. **Test the model without training:**
 
-   Download your desired image and run the `test.py` script to only test the model without training:
+   Download your desired image and save it in the main directory of project with the name `test.jpg`.
    ```
    # For Example
-   wget -q -O cat.jpg https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg
+   wget -q -O test.jpg https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg
    ```
+
+   Run the `test.py` script to only test the model without training:
    ```
    python test.py
    ```
